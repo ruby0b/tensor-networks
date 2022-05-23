@@ -1,0 +1,12 @@
+[flake8]
+max-line-length = 99
+exclude = tests
+ignore =
+    # star imports
+    F403, F405,
+    # redefinitions used for overloading
+    F811,
+    # deprecated warning that goes against PEP 8
+    W503,
+    # whitespace around arithmetic operators
+    E226
